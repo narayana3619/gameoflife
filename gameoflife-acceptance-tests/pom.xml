@@ -14,6 +14,9 @@
         <webdriver.base.url>http://localhost:${jetty.port}</webdriver.base.url>
         <webdriver.driver>firefox</webdriver.driver>
         <thucydides.version>0.9.268</thucydides.version>
+        <sonar.host.url>http://65.2.57.28:9000/</sonar.host.url>
+        <sonar.login>admin</sonar.login>
+        <sonar.password>admin</sonar.password>
     </properties>
     <dependencies>
         <dependency>
