@@ -200,7 +200,7 @@
     
     <distributionManagement>
    <snapshotRepository>
-      <id>nexus-snapshots</id>
+      <id>nexus</id>
       <url>http://65.0.19.73:8081/repository/gameoflife-snapshot/</url>
    </snapshotRepository>
 </distributionManagement>
