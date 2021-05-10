@@ -80,7 +80,7 @@
                 </executions>
             </plugin>
             <!-- CODE COVERAGE -->
-            <!--
+            
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
@@ -102,13 +102,13 @@
                     </execution>
                 </executions>
             </plugin>
-           
+ <!--          
  <plugin>
   <groupId>org.jacoco</groupId>
   <artifactId>jacoco-maven-plugin</artifactId>
   <version>0.8.8-SNAPSHOT</version>
 </plugin>
--->           
+ -->
  <plugin>
 <groupId>org.codehaus.mojo</groupId>
 <artifactId>cobertura-maven-plugin</artifactId>
@@ -236,13 +236,13 @@
             <scope>test</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.jacoco/jacoco-maven-plugin -->
-<!--
+
 <dependency>
     <groupId>org.jacoco</groupId>
     <artifactId>jacoco-maven-plugin</artifactId>
     <version>0.7.9</version>
 </dependency>
--->
+
     </dependencies>
 
     <modules>
